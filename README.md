@@ -1,1 +1,1 @@
-# BCMortgageCalculator
+# BC Mortgage Calculator
