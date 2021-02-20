@@ -2,8 +2,8 @@ namespace MortgageCalculator.API.Enums
 {
     public enum PaymentSchedule
     {
-        Monthly,
-        BiWeekly,
-        Accelerated
+        Monthly = 12,
+        BiWeekly = 24,
+        Accelerated = 26,
     }
 }
