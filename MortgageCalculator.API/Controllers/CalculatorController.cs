@@ -1,4 +1,3 @@
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using MortgageCalculator.API.DTO;
 using MortgageCalculator.API.Util;
