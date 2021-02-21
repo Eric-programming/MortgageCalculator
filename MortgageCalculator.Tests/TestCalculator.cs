@@ -16,12 +16,12 @@ namespace MortgageCalculator.Tests
             //Arrange
             var Calculator = new CalculatorController();
             var data = new CalculatorDTO(300000, 5, 20, 5, PaymentSchedule.Monthly);
+            const double ans = 4529.1;
 
             //Act
             var result = Calculator.GetPaymentPerPaymentSchedule(data);
 
             //Assert
-            double ans = 4529.1;
             Assert.Equal(ans, result.Value);
         }
         /**
@@ -33,12 +33,12 @@ namespace MortgageCalculator.Tests
             //Arrange
             var Calculator = new CalculatorController();
             var data = new CalculatorDTO(1000000, 10, 20, 5, PaymentSchedule.Accelerated);
+            const double ans = 7831.57;
 
             //Act
             var result = Calculator.GetPaymentPerPaymentSchedule(data);
 
             //Assert
-            double ans = 7831.57;
             Assert.Equal(ans, result.Value);
         }
 
@@ -51,12 +51,12 @@ namespace MortgageCalculator.Tests
             //Arrange
             var Calculator = new CalculatorController();
             var data = new CalculatorDTO(1000000, 10, 20, 5, PaymentSchedule.BiWeekly);
+            const double ans = 8485.24;
 
             //Act
             var result = Calculator.GetPaymentPerPaymentSchedule(data);
 
             //Assert
-            double ans = 8485.24;
             Assert.Equal(ans, result.Value);
         }
     }
