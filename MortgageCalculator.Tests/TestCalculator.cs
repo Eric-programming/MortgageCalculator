@@ -5,7 +5,7 @@ using Xunit;
 
 namespace MortgageCalculator.Tests
 {
-    public class UnitTest1
+    public class TestCalculator
     {
         /**
         Test for Monthly Option
