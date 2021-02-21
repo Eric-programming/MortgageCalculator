@@ -7,11 +7,11 @@ namespace MortgageCalculator.API.Util
     public class CalculatePayment
     {
         //Property price
-        public double P { get; set; }
+        private double P { get; set; }
         //Per payment schedule interest rate
-        public double R { get; set; }
+        private double R { get; set; }
         //Total number of payments over amortization period
-        public int N { get; set; }
+        private int N { get; set; }
 
         public CalculatePayment(CalculatorDTO input)
         {
