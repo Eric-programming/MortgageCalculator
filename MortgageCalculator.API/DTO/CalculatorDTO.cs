@@ -34,5 +34,9 @@ namespace MortgageCalculator.API.DTO
             this.AmortizationPeriod = AmortizationPeriod;
             this.PaymentScheduleOptions = PaymentScheduleOptions;
         }
+        public CalculatorDTO()
+        {
+
+        }
     }
 }
